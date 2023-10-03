@@ -24,6 +24,8 @@ header{
     vertical-align: middle;
 }
 
+
+
 #titolo{
     font-size: 3rem;
 
@@ -83,11 +85,13 @@ button{
     
     
     
+    
 }
 
 .margin-section{
     margin-left: 80px;
-    padding: 40px 0;
+    padding: 20px 0;
+    
     
    
     
@@ -108,14 +112,20 @@ button{
 }
 
 ul{
-     margin-left: 25px;
-     list-style-type:lower-alpha;
+   
+     margin-left: 0px;
+     list-style-type: none;
      line-height: 40px;
+    
+    
 }
 
 li{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    display: inline-block;
+    
+   
 
    
 }
@@ -147,3 +157,25 @@ li{
 #style-sales{
     background-color: rgb(83, 136, 4);
 }
+
+
+.spunta-verde{
+   width: 20px;
+   height: 20px;
+   border:1px solid;
+   border-color: green;
+   display: inline-block;
+   border-radius: 100%;
+   text-align: center;
+   color: green;
+   
+
+   }
+
+.style-rossa{
+   
+    border-color: rgb(255, 0, 0);
+ 
+    color: rgb(255, 0, 0);
+}
+
